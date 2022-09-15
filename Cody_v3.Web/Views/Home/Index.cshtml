@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Excel Import Tool</h1>
+    @*<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
+    <a  class="btn btn-success" asp-action="OpenExcel" asp-controller="Home" >Import Excel Tool</a>
+
+    <form >
+
+        <textarea id="summernote" name="editordata"></textarea>
+
+        <a href="#" value="Save" id="submit-form" class="btn btn-outline-success" onclick="onSubmit()">Save</a>
+    </form>
+</div>
+
+<script>
+    // Replace the <textarea id="editor1"> with a CKEditor 4
+    // instance, using default configuration.
+    //CKEDITOR.replace('editor1');
+    function onSubmit() {
+        let txt = $('#summernote').val();
+        console.log('txt: ', txt);
+    }
+</script>
