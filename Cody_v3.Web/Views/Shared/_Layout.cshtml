@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ExcelWebTool</title>
+    <title>@ViewData["Title"] - Cody v3</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link href="~/lib/fontawesome-free-6.1.2-web/css/all.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" rel="stylesheet">
@@ -14,7 +14,7 @@
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-@*    <!-- Font Awesome Icons -->
+    @*    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">*@
     <!-- IonIcons -->
     <link rel="stylesheet" href="~/lib/adminlte3.2.0/css/ionicons.min.css">
@@ -60,56 +60,58 @@
                 <!-- /.container-fluid -->
             </div>
             <!-- /.content -->
-        </div>
-        <!-- /.content-wrapper -->
-
-        @await Html.PartialAsync("_Main_Control_Sidebar_partial")
-        @*    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <div class="container-fluid">
-        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ExcelWebTool</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-        <ul class="navbar-nav flex-grow-1">
-        <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house-chimney"></i> Home</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="OpenExcel"><img src="~/Icons/excel-4957.svg" alt="Excel icon" width="16" height="16" /> Nhập dữ liệu Excel</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statistical" onclick="showLoading();"><i class="far fa-chart-bar"></i> Thống kê</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="OverLoadReport" onclick="showLoading();"><i class="far fa-chart-bar"></i> Báo cáo quá tải</a>
-        </li>
-        </ul>
-        </div>
-        </div>
-        </nav>
-        </header>*@
-@*        <div class="container">
-            <main role="main" class="pb-3">
-                @RenderBody()
-            </main>
-        </div>*@
-
-        <footer class="main-footer">
-            <strong>Copyright &copy; 2022 <a href="https://adminlte.io">Cody V3</a>.</strong>
-            All rights reserved.
-            <div class="float-right d-none d-sm-inl      ine-block">
-                <b>Vers      ion</b> 3.2.0
+            
+            @*    <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ExcelWebTool</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house-chimney"></i> Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="OpenExcel"><img src="~/Icons/excel-4957.svg" alt="Excel icon" width="16" height="16" /> Nhập dữ liệu Excel</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statistical" onclick="showLoading();"><i class="far fa-chart-bar"></i> Thống kê</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="OverLoadReport" onclick="showLoading();"><i class="far fa-chart-bar"></i> Báo cáo quá tải</a>
+            </li>
+            </ul>
             </div>
-        </footer>
+            </div>
+            </nav>
+            </header>*@
+            @*        <div class="container">
+            <main role="main" class="pb-3">
+            @RenderBody()
+            </main>
+            </div>*@
+
+
+        </div>
+    <!-- /.content-wrapper -->
+            @await Html.PartialAsync("_Main_Control_Sidebar_partial")
+            <footer class="main-footer">
+                <strong>Copyright &copy; 2022 <a href="https://adminlte.io">Cody V3</a>.</strong>
+                All rights reserved.
+                <div class="float-right d-none d-sm-inl      ine-block">
+                    <b>Vers      ion</b> 3.2.0
+                </div>
+            </footer>
+
 
     </div>
-    <!-- ./wrapper -->
+        <!-- ./wrapper -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

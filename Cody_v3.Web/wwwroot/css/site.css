@@ -34,3 +34,8 @@ table.dataTable thead tr {
     background-color: #198754;
     color: white;
 }
+
+* {
+box-sizing:border-box;
+background: rgb(0 100 0/0.1)!important;
+}
