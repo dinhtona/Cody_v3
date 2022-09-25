@@ -13,10 +13,6 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
-}
-
 table {
 
     border-collapse: collapse !important;
@@ -35,7 +31,8 @@ table.dataTable thead tr {
     color: white;
 }
 
-* {
+/*CSS debugger*/
+/** {
 box-sizing:border-box;
 background: rgb(0 100 0/0.1)!important;
-}
+}*/
