@@ -13,7 +13,7 @@ using Serilog;
 Log.Logger = new LoggerConfiguration().MinimumLevel.Debug()
     .MinimumLevel.Override("Microsoft", Serilog.Events.LogEventLevel.Error)
     .Enrich.FromLogContext()
-    .WriteTo.File(AppDomain.CurrentDomain.BaseDirectory + @"\logs\ExcelWebTool_.txt",
+    .WriteTo.File(AppDomain.CurrentDomain.BaseDirectory + @"\logs\Cody_v3_.txt",
     outputTemplate: "{NewLine}========================Start============================{NewLine}{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}=========================End============================={NewLine}"
     , rollingInterval: RollingInterval.Day)
     .CreateLogger();

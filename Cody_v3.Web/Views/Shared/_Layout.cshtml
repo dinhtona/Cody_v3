@@ -86,7 +86,7 @@
             //        sendFile(files[0], editor, welEditable);
             //    }
             //});
-            $('#summernote').summernote({
+            $('.summernote').summernote({
                 height: 300,                 // set editor height
                 minHeight: null,             // set minimum height of editor
                 maxHeight: null,             // set maximum height of editor
@@ -119,7 +119,7 @@
                         var imgNode = document.createElement('img');
                         imgNode.src = FileUrl;
                         imgNode.alt=file.name;
-                        $('#summernote').summernote('insertNode', imgNode);
+                        $('.summernote').summernote('insertNode', imgNode);
                     },
                     error: function (data) {
                         alert(data.responseText);
