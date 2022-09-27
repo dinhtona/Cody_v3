@@ -1,13 +1,13 @@
-﻿using ExcelWebTool.Repositories.Contexts;
-using ExcelWebTool.Repositories.Entities;
-using ExcelWebTool.Repositories.Interfaces;
-using ExcelWebTool.Repositories.Paging;
+﻿using Cody_v3.Repositories.Contexts;
+using Cody_v3.Repositories.Entities;
+using Cody_v3.Repositories.Interfaces;
+using Cody_v3.Repositories.Paging;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace ExcelWebTool.Repositories.Generics
+namespace Cody_v3.Repositories.Generics
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ExcelWebTool.Repositories.Migrations
+namespace Cody_v3.Repositories.Migrations
 {
     public partial class AddReclosertable2 : Migration
     {

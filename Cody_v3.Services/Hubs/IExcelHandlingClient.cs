@@ -1,4 +1,4 @@
-﻿namespace ExcelWebTool.Services.Hubs
+﻿namespace Cody_v3.Services.Hubs
 {
     public interface IExcelHandlingClient
     {

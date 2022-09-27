@@ -1,4 +1,4 @@
-# ExcelWebTool
+# Cody_v3
 
 #Open the Developer PowerShell
 Tool -> Command Line -> Developer PowerShell
@@ -7,9 +7,9 @@ Tool -> Command Line -> Developer PowerShell
 #Restore nuget
 dotnet restore
 #move to this folder
-cd ExcelWebTool.Repositories
+cd Cody_v3.Repositories
 #add migrations
-dotnet ef --startup-project ../ExcelWebTool.web/ migrations add New-migration-Name
+dotnet ef --startup-project ../Cody_v3.web/ migrations add New-migration-Name
 #update db
-dotnet ef --startup-project ../ExcelWebTool.web/ database update
+dotnet ef --startup-project ../Cody_v3.web/ database update
 

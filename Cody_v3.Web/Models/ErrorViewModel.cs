@@ -1,4 +1,4 @@
-namespace ExcelWebTool.Web.Models
+namespace Cody_v3.Web.Models
 {
     public class ErrorViewModel
     {

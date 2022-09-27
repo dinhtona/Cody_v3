@@ -1,4 +1,4 @@
-﻿@model ExcelWebTool.Services.DTOs.ExcelRequestDTO
+﻿@model Cody_v3.Services.DTOs.ExcelRequestDTO
 
 @{
     ViewData["Title"] = "Home Page";
@@ -6,8 +6,8 @@
 }
 
 <h4>Import Excel Tool</h4>
-<hr />
 <div class="row">
+
     <div class="col-md-4">
         @using (Html.BeginForm("ImportExcel", "Home", FormMethod.Post, new { enctype = "multipart/form-data",  onsubmit="showLoading();" }))//, onsubmit = "return myFunction()" 
         {            

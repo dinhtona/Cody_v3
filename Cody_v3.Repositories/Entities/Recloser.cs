@@ -1,4 +1,4 @@
-﻿using ExcelWebTool.Repositories.Generics;
+﻿using Cody_v3.Repositories.Generics;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExcelWebTool.Repositories.Entities
+namespace Cody_v3.Repositories.Entities
 {
     public class Recloser:BaseEntity
     {

@@ -1,11 +1,11 @@
-﻿using ExcelWebTool.Repositories.Entities;
-using ExcelWebTool.Repositories.Interfaces;
-using ExcelWebTool.Repositories.Paging;
-using ExcelWebTool.Services.DTOs;
-using ExcelWebTool.Services.Generics;
-using ExcelWebTool.Services.Helpers;
-using ExcelWebTool.Services.Hubs;
-using ExcelWebTool.Services.Interfaces;
+﻿using Cody_v3.Repositories.Entities;
+using Cody_v3.Repositories.Interfaces;
+using Cody_v3.Repositories.Paging;
+using Cody_v3.Services.DTOs;
+using Cody_v3.Services.Generics;
+using Cody_v3.Services.Helpers;
+using Cody_v3.Services.Hubs;
+using Cody_v3.Services.Interfaces;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.SignalR;
@@ -19,7 +19,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExcelWebTool.Services.ServiceClasses
+namespace Cody_v3.Services.ServiceClasses
 {
     public class RecloserDataService : GenericService<RecloserData>, IRecloserDataService
     {

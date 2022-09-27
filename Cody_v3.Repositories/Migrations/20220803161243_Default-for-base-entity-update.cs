@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace ExcelWebTool.Repositories.Migrations
+namespace Cody_v3.Repositories.Migrations
 {
     public partial class Defaultforbaseentityupdate : Migration
     {

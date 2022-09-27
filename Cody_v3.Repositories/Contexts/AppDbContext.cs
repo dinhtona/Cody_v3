@@ -1,13 +1,13 @@
-﻿using ExcelWebTool.Repositories.Entities;
-using ExcelWebTool.Repositories.Generics;
-using ExcelWebTool.Repositories.Interfaces;
+﻿using Cody_v3.Repositories.Entities;
+using Cody_v3.Repositories.Generics;
+using Cody_v3.Repositories.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyModel;
 using System.Reflection;
 using System.Web;
 
-namespace ExcelWebTool.Repositories.Contexts
+namespace Cody_v3.Repositories.Contexts
 {
     public class AppDbContext : DbContext, IAppDbContext
     {

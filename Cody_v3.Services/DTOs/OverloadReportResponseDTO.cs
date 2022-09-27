@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExcelWebTool.Services.DTOs
+namespace Cody_v3.Services.DTOs
 {
     public class OverloadReportResponseDTO
     {

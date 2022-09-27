@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 
-namespace ExcelWebTool.Services.Hubs
+namespace Cody_v3.Services.Hubs
 {
     public class ExcelHandlingHub: Hub<IExcelHandlingClient>
     {

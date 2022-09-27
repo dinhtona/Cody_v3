@@ -1,7 +1,7 @@
-﻿using ExcelWebTool.Repositories.Paging;
+﻿using Cody_v3.Repositories.Paging;
 using System.Linq.Expressions;
 
-namespace ExcelWebTool.Services.Interfaces
+namespace Cody_v3.Services.Interfaces
 {
     public interface IGenericService<T> where T : class
     {

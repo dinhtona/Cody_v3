@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExcelWebTool.Services.Helpers
+namespace Cody_v3.Services.Helpers
 {
     public static  class ClassHelper
     {

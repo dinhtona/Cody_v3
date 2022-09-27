@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExcelWebTool.Repositories.Interfaces
+namespace Cody_v3.Repositories.Interfaces
 {
     public  interface IAppDbContext
     {

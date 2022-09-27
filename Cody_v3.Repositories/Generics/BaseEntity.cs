@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ExcelWebTool.Repositories.Generics
+namespace Cody_v3.Repositories.Generics
 {
     public class BaseEntity
     {

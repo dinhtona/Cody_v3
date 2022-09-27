@@ -1,10 +1,10 @@
-﻿using ExcelWebTool.Repositories.Interfaces;
-using ExcelWebTool.Repositories.Paging;
-using ExcelWebTool.Services.Interfaces;
+﻿using Cody_v3.Repositories.Interfaces;
+using Cody_v3.Repositories.Paging;
+using Cody_v3.Services.Interfaces;
 using Microsoft.AspNetCore.SignalR;
 using System.Linq.Expressions;
 
-namespace ExcelWebTool.Services.Generics
+namespace Cody_v3.Services.Generics
 {
     public class GenericService<T> : Hub, IGenericService<T> where T : class
     {

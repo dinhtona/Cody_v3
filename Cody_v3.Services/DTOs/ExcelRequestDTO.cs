@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace ExcelWebTool.Services.DTOs
+namespace Cody_v3.Services.DTOs
 {
     public class ExcelRequestDTO
     {

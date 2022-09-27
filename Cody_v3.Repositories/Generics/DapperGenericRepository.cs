@@ -1,5 +1,5 @@
 ﻿using Dapper;
-using ExcelWebTool.Repositories.Interfaces;
+using Cody_v3.Repositories.Interfaces;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExcelWebTool.Repositories.Generics
+namespace Cody_v3.Repositories.Generics
 {
     public class DapperGenericRepository : IDapperGenericRepository, IDisposable
     {
